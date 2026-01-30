@@ -12,14 +12,14 @@ public class problem6 {
         } else {
             System.out.println("The string is not a palindrome.");
         }
+        scanner.close();
     }
 
     public static boolean isPalindrome(String str) {
-        String cleanStr = str.replaceAll("\\s+", "").toLowerCase();
-        int length = cleanStr.length();
+        int length = str.length();
         
         for (int i = 0; i < length / 2; i++) {
-            if (cleanStr.charAt(i) != cleanStr.charAt(length - i - 1)) {
+            if (str.charAt(i) != str.charAt(length - i - 1)) {
                 return false;
             }
         }

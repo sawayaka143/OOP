@@ -7,6 +7,9 @@ public class problem2 {
         
         System.out.print("Enter side a: ");
         double a = scanner.nextDouble();
+
+        scanner.close();
+
         
         double area = a * a;
         double perimeter = 4 * a;

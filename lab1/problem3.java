@@ -7,6 +7,8 @@ public class problem3 {
         
         System.out.print("Enter your score (0-100): ");
         int score = scanner.nextInt();
+
+        scanner.close();
         
         if (score >= 95 && score <= 100) {
             System.out.println("Grade: A");
