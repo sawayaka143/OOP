@@ -1,9 +1,13 @@
 package lab2;
 
-public class student {
-    String name;
-    int id;
-    int yearOfStudy;
+public class Student {
+    private String name;
+    private int id; 
+    private int yearOfStudy;
 
-    stat
+    public Student(String name, int id, int yearOfStudy) {
+        this.name = name;
+        this.id = id;
+        this.yearOfStudy = yearOfStudy;
+    }
 }
