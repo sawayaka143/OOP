@@ -2,12 +2,28 @@ package lab2;
 
 public class Student {
     private String name;
-    private int id; 
-    private int yearOfStudy;
+    private String id;
+    private int year;
 
-    public Student(String name, int id, int yearOfStudy) {
+    public Student(String name, String id) {
         this.name = name;
         this.id = id;
-        this.yearOfStudy = yearOfStudy;
+        this.year = 1;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void incrementYear() {
+        year++;
     }
 }
