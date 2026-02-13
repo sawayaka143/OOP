@@ -8,7 +8,6 @@ public class Analyzer {
         Scanner scanner = new Scanner(System.in);
         Data data = new Data();
         
-        System.out.println("Welcome to Data Analyzer!");
         System.out.println("Enter numbers to analyze (enter 'Q' to quit and see results)");
         System.out.println();
         
